@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Search box</title>
+	<link rel="stylesheet" href="/static/css/index10.css">
+</head>
+<body>
+	<header>
+		<h1 style="color:white;overflow: hidden;background:black;padding: 25px 0;text-align: center;text-transform: uppercase;">新冠疫情问答系统</h1>
+	</header>
+	<div class="box">
+		<form action="/deal_request" method="post">
+			<input type="text" name="q" placeholder="Type..." >
+			<input type="submit" name="" value="Search">
+		</form>
+	</div>
+	<div class="box2">
+		<h1 type="text" style="margin-bottom: 6px;">[Q]:{{ result }}</h1>
+		<h2 type="text">{{ result2 }} </h2>
+	</div>
+
+	<div class="action" onclick="actionToggle();">
+		<span>+</span>
+		<ul>
+			<li><img src="{{ url_for('static', filename='咖啡树.png')}}"><a href="http://127.0.0.1:5000/deal_request" /> 疫情数据Q&A </li>
+
+			<li><img src="{{ url_for('static', filename='咖啡豆.png')}}"><a href="/static/0a.html" /> 疫情数据可视化 </li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function actionToggle(){
+			var action = document.querySelector('.action');
+			action.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>

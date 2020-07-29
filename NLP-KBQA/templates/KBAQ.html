@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Search box</title>
+	<link rel="stylesheet" href="/static/css/index2.css">
+</head>
+<body>
+	<div class="box">
+		<form action="/deal_request" method="post">
+			<input type="text" name="q" placeholder="Type..." >
+			<input type="submit" name="" value="Search">
+		</form>
+	</div>
+	<div class="box2">
+		<h1 type="text" style="margin-bottom: 6px;">[Q]:{{ result }}</h1>
+		<h1 type="text">{{ result2 }} </h1>
+	</div>
+
+	<div class="action" onclick="actionToggle();">
+		<span>+</span>
+		<ul>
+			<li><img src="{{ url_for('static', filename='咖啡树.png')}}"><a href="file://C:/Users/Ryan/Desktop/图像风格迁移/index.html" /> 疫情数据Q&A </li>
+
+			<li><img src="{{ url_for('static', filename='咖啡豆.png')}}"><a href="file://C:/Users/Ryan/Desktop/图像风格迁移/index2.html" /> 国内外疫情概况 </li>
+			<li><img src="{{ url_for('static', filename='调味品.png')}}"><a href="file://C:/Users/Ryan/Desktop/图像风格迁移/index3.html" /> 确诊/入境新增趋势</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		function actionToggle(){
+			var action = document.querySelector('.action');
+			action.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>

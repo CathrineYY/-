@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <div class="box">
+		<!-- <h1>Search</h1> -->
+		<form action="/deal_request" method="post">
+			<input type="text" name="q" placeholder="Type..." >
+			<input type="submit" name="" value="Search">
+		</form>
+	</div>
+    <div class="box2">
+        <h1 type="text">Q:{{ result }}</h1>
+        <h1 type="text">{{ result2 }} </h1>
+    </div>
+</body>
+</html>

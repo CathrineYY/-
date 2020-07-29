@@ -1,0 +1,201 @@
+累计确诊 10
+当前确诊 10
+目前确诊 10
+当前的确诊 10
+目前的确诊 10
+累计治愈 10
+累计的治愈 10
+累计死亡 10
+累计的死亡 10
+确诊情况 10
+现在的 10
+当前的 10
+目前的 10
+现有确诊 10
+现有的确诊 10
+治愈情况 10
+Singapore Rep. 10
+Dominican Rep. 10
+Palestine 10
+Bahamas 10
+Timor-Leste 10
+Afghanistan 10
+Guinea-Bissau 10
+Côte d'Ivoire 10
+Siachen Glacier 10
+Br. Indian Ocean Ter. 10
+Angola 10
+Albania 10
+United Arab Emirates 10
+Argentina 10
+Armenia 10
+French Southern and Antarctic Lands 10
+Australia 10
+Austria 10
+Azerbaijan 10
+Burundi 10
+Belgium 10
+Benin 10
+Burkina Faso 10
+Bangladesh 10
+Bulgaria 10
+The Bahamas 10
+Bosnia and Herz. 10
+Belarus 10
+Belize 10
+Bermuda 10
+Bolivia 10
+Brazil 10
+Brunei 10
+Bhutan 10
+Botswana 10
+Central African Rep. 10
+Canada 10
+Switzerland 10
+Chile 10
+China 10
+Ivory Coast 10
+Cameroon 10
+Dem. Rep. Congo 10
+Congo 10
+Colombia 10
+Costa Rica 10
+Cuba 10
+N. Cyprus 10
+Cyprus 10
+Czech Rep. 10
+Germany 10
+Djibouti 10
+Denmark 10
+Algeria 10
+Ecuador 10
+Egypt 10
+Eritrea 10
+Spain 10
+Estonia 10
+Ethiopia 10
+Finland 10
+Fiji 10
+Falkland Islands 10
+France 10
+Gabon 10
+United Kingdom 10
+Georgia 10
+Ghana 10
+Guinea 10
+Gambia 10
+Guinea Bissau 10
+Eq. Guinea 10
+Greece 10
+Greenland 10
+Guatemala 10
+French Guiana 10
+Guyana 10
+Honduras 10
+Croatia 10
+Haiti 10
+Hungary 10
+Indonesia 10
+India 10
+Ireland 10
+Iran 10
+Iraq 10
+Iceland 10
+Israel 10
+Italy 10
+Jamaica 10
+Jordan 10
+Japan 10
+Kazakhstan 10
+Kenya 10
+Kyrgyzstan 10
+Cambodia 10
+Korea 10
+Kosovo 10
+Kuwait 10
+Lao PDR 10
+Lebanon 10
+Liberia 10
+Libya 10
+Sri Lanka 10
+Lesotho 10
+Lithuania 10
+Luxembourg 10
+Latvia 10
+Morocco 10
+Moldova 10
+Madagascar 10
+Mexico 10
+Macedonia 10
+Mali 10
+Myanmar 10
+Montenegro 10
+Mongolia 10
+Mozambique 10
+Mauritania 10
+Malawi 10
+Malaysia 10
+Namibia 10
+New Caledonia 10
+Niger 10
+Nigeria 10
+Nicaragua 10
+Netherlands 10
+Norway 10
+Nepal 10
+New Zealand 10
+Oman 10
+Pakistan 10
+Panama 10
+Peru 10
+Philippines 10
+Papua New Guinea 10
+Poland 10
+Puerto Rico 10
+Dem. Rep. Korea 10
+Portugal 10
+Paraguay 10
+Qatar 10
+Romania 10
+Russia 10
+Rwanda 10
+W. Sahara 10
+Saudi Arabia 10
+Sudan 10
+S. Sudan 10
+Senegal 10
+Solomon Is. 10
+Sierra Leone 10
+El Salvador 10
+Somaliland 10
+Somalia 10
+Serbia 10
+Suriname 10
+Slovakia 10
+Slovenia 10
+Sweden 10
+Swaziland 10
+Syria 10
+Chad 10
+Togo 10
+Thailand 10
+Tajikistan 10
+Turkmenistan 10
+East Timor 10
+Trinidad and Tobago 10
+Tunisia 10
+Turkey 10
+Tanzania 10
+Uganda 10
+Ukraine 10
+Uruguay 10
+United States 10
+Uzbekistan 10
+Venezuela 10
+Vietnam 10
+Vanuatu 10
+West Bank 10
+Yemen 10
+South Africa 10
+Zambia 10
+Zimbabwe 10

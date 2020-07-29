@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>全球疫情地图分布</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+    <link rel="stylesheet" href="/static/css/data_style2.css">
+</head>
+<body>
+    <header>
+    <input type="checkbox" id="toggler">
+    <label for="toggler">
+        <div class="hamburger-container">
+            <span></span>
+            <span></span>
+        </div>
+    </label>
+
+    <div class="nav-items">
+        <ul>
+            <li><a href="/static/0a.html" />国内疫情地图分布</li>
+            <li><a href="/static/14a.html" />全球疫情地图分布</li>
+            <li><a href="/static/8.html" />确诊及入境新趋势</li>
+        </ul>
+    </div>
+</header><!-- /header -->
+    <div id="9be3f84519ff45ad9a47e19130d2252d" class="chart-container" style="width:1300px; height:780px;margin-left: 250px;margin-top: 90px;"></div>
+    <script>
+        var chart_9be3f84519ff45ad9a47e19130d2252d = echarts.init(
+            document.getElementById('9be3f84519ff45ad9a47e19130d2252d'), 'white', {renderer: 'canvas'});
+        var option_9be3f84519ff45ad9a47e19130d2252d = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u73b0\u6709\u786e\u8bca\u4eba\u6570",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Tajikistan",
+                    "value": "1342"
+                },
+                {
+                    "name": "Yemen",
+                    "value": "392"
+                },
+                {
+                    "name": "Lao PDR",
+                    "value": "0"
+                },
+                {
+                    "name": "Myanmar",
+                    "value": "72"
+                },
+                {
+                    "name": "Syria",
+                    "value": "158"
+                },
+                {
+                    "name": "Timor-Leste",
+                    "value": "0"
+                },
+                {
+                    "name": "East Timor",
+                    "value": "0"
+                },
+                {
+                    "name": "Kyrgyzstan",
+                    "value": "2673"
+                },
+                {
+                    "name": "Uzbekistan",
+                    "value": "2703"
+                },
+                {
+                    "name": "Kazakhstan",
+                    "value": "8623"
+                },
+                {
+                    "name": "Turkey",
+                    "value": "21689"
+                },
+                {
+                    "name": "Cyprus",
+                    "value": "144"
+                },
+                {
+                    "name": "Brunei",
+                    "value": "0"
+                },
+                {
+                    "name": "Bangladesh",
+                    "value": "82238"
+                },
+                {
+                    "name": "Bhutan",
+                    "value": "33"
+                },
+                {
+                    "name": "Palestine",
+                    "value": "1733"
+                },
+                {
+                    "name": "Saudi Arabia",
+                    "value": "57719"
+                },
+                {
+                    "name": "Jordan",
+                    "value": "252"
+                },
+                {
+                    "name": "Indonesia",
+                    "value": "28487"
+                },
+                {
+                    "name": "Armenia",
+                    "value": "11397"
+                },
+                {
+                    "name": "Qatar",
+                    "value": "14823"
+                },
+                {
+                    "name": "Azerbaijan",
+                    "value": "7393"
+                },
+                {
+                    "name": "Georgia",
+                    "value": "120"
+                },
+                {
+                    "name": "Pakistan",
+                    "value": "106938"
+                },
+                {
+                    "name": "Oman",
+                    "value": "16469"
+                },
+                {
+                    "name": "Afghanistan",
+                    "value": "16571"
+                },
+                {
+                    "name": "Kuwait",
+                    "value": "8861"
+                },
+                {
+                    "name": "Iraq",
+                    "value": "22338"
+                },
+                {
+                    "name": "Lebanon",
+                    "value": "541"
+                },
+                {
+                    "name": "Israel",
+                    "value": "6904"
+                },
+                {
+                    "name": "Iran",
+                    "value": "28355"
+                },
+                {
+                    "name": "India",
+                    "value": "215361"
+                },
+                {
+                    "name": "Philippines",
+                    "value": "25227"
+                },
+                {
+                    "name": "Sri Lanka",
+                    "value": "350"
+                },
+                {
+                    "name": "Cambodia",
+                    "value": "11"
+                },
+                {
+                    "name": "Nepal",
+                    "value": "10085"
+                },
+                {
+                    "name": "Vietnam",
+                    "value": "20"
+                },
+                {
+                    "name": "Korea",
+                    "value": "981"
+                },
+                {
+                    "name": "Malaysia",
+                    "value": "182"
+                },
+                {
+                    "name": "Singapore Rep.",
+                    "value": "5650"
+                },
+                {
+                    "name": "Thailand",
+                    "value": "58"
+                },
+                {
+                    "name": "Montenegro",
+                    "value": "175"
+                },
+                {
+                    "name": "Albania",
+                    "value": "970"
+                },
+                {
+                    "name": "Bulgaria",
+                    "value": "2026"
+                },
+                {
+                    "name": "Moldova",
+                    "value": "6592"
+                },
+                {
+                    "name": "Slovakia",
+                    "value": "173"
+                },
+                {
+                    "name": "Serbia",
+                    "value": "1433"
+                },
+                {
+                    "name": "Hungary",
+                    "value": "875"
+                },
+                {
+                    "name": "Slovenia",
+                    "value": "90"
+                },
+                {
+                    "name": "Poland",
+                    "value": "11813"
+                },
+                {
+                    "name": "Ukraine",
+                    "value": "23454"
+                },
+                {
+                    "name": "Latvia",
+                    "value": "155"
+                },
+                {
+                    "name": "Portugal",
+                    "value": "13139"
+                },
+                {
+                    "name": "Czech Rep.",
+                    "value": "3711"
+                },
+                {
+                    "name": "Ireland",
+                    "value": "363"
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": "149"
+                },
+                {
+                    "name": "Iceland",
+                    "value": "12"
+                },
+                {
+                    "name": "Belarus",
+                    "value": "16190"
+                },
+                {
+                    "name": "Lithuania",
+                    "value": "226"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": "43794"
+                },
+                {
+                    "name": "Estonia",
+                    "value": "100"
+                },
+                {
+                    "name": "Denmark",
+                    "value": "534"
+                },
+                {
+                    "name": "Romania",
+                    "value": "6036"
+                },
+                {
+                    "name": "Norway",
+                    "value": "475"
+                },
+                {
+                    "name": "Greece",
+                    "value": "1825"
+                },
+                {
+                    "name": "Switzerland",
+                    "value": "590"
+                },
+                {
+                    "name": "Croatia",
+                    "value": "463"
+                },
+                {
+                    "name": "Austria",
+                    "value": "600"
+                },
+                {
+                    "name": "Belgium",
+                    "value": "34688"
+                },
+                {
+                    "name": "Spain",
+                    "value": "70746"
+                },
+                {
+                    "name": "Sweden",
+                    "value": "57386"
+                },
+                {
+                    "name": "Russia",
+                    "value": "228560"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": "267022"
+                },
+                {
+                    "name": "Italy",
+                    "value": "16496"
+                },
+                {
+                    "name": "Finland",
+                    "value": "281"
+                },
+                {
+                    "name": "Germany",
+                    "value": "8251"
+                },
+                {
+                    "name": "France",
+                    "value": "58798"
+                },
+                {
+                    "name": "Lesotho",
+                    "value": "23"
+                },
+                {
+                    "name": "S. Sudan",
+                    "value": "1707"
+                },
+                {
+                    "name": "Malawi",
+                    "value": "879"
+                },
+                {
+                    "name": "Burundi",
+                    "value": "54"
+                },
+                {
+                    "name": "Sierra Leone",
+                    "value": "429"
+                },
+                {
+                    "name": "Botswana",
+                    "value": "149"
+                },
+                {
+                    "name": "Guinea-Bissau",
+                    "value": "1313"
+                },
+                {
+                    "name": "Guinea Bissau",
+                    "value": "1313"
+                },
+                {
+                    "name": "Mali",
+                    "value": "611"
+                },
+                {
+                    "name": "Libya",
+                    "value": "573"
+                },
+                {
+                    "name": "Mozambique",
+                    "value": "648"
+                },
+                {
+                    "name": "Eritrea",
+                    "value": "138"
+                },
+                {
+                    "name": "Uganda",
+                    "value": "62"
+                },
+                {
+                    "name": "Angola",
+                    "value": "172"
+                },
+                {
+                    "name": "Madagascar",
+                    "value": "1152"
+                },
+                {
+                    "name": "Zimbabwe",
+                    "value": "415"
+                },
+                {
+                    "name": "Niger",
+                    "value": "69"
+                },
+                {
+                    "name": "Chad",
+                    "value": "11"
+                },
+                {
+                    "name": "Zambia",
+                    "value": "235"
+                },
+                {
+                    "name": "Djibouti",
+                    "value": "170"
+                },
+                {
+                    "name": "Gambia",
+                    "value": "19"
+                },
+                {
+                    "name": "Benin",
+                    "value": "845"
+                },
+                {
+                    "name": "Somalia",
+                    "value": "1904"
+                },
+                {
+                    "name": "Tanzania",
+                    "value": "305"
+                },
+                {
+                    "name": "Liberia",
+                    "value": "422"
+                },
+                {
+                    "name": "Eq. Guinea",
+                    "value": "1454"
+                },
+                {
+                    "name": "Namibia",
+                    "value": "172"
+                },
+                {
+                    "name": "Rwanda",
+                    "value": "556"
+                },
+                {
+                    "name": "Swaziland",
+                    "value": "404"
+                },
+                {
+                    "name": "Mauritania",
+                    "value": "2612"
+                },
+                {
+                    "name": "Sudan",
+                    "value": "4671"
+                },
+                {
+                    "name": "Guinea",
+                    "value": "1024"
+                },
+                {
+                    "name": "Ethiopia",
+                    "value": "3313"
+                },
+                {
+                    "name": "Kenya",
+                    "value": "4033"
+                },
+                {
+                    "name": "Gabon",
+                    "value": "2932"
+                },
+                {
+                    "name": "Ghana",
+                    "value": "4245"
+                },
+                {
+                    "name": "C\u00f4te d'Ivoire",
+                    "value": "5152"
+                },
+                {
+                    "name": "Burkina Faso",
+                    "value": "76"
+                },
+                {
+                    "name": "Togo",
+                    "value": "228"
+                },
+                {
+                    "name": "Cameroon",
+                    "value": "2179"
+                },
+                {
+                    "name": "South Africa",
+                    "value": "71121"
+                },
+                {
+                    "name": "Tunisia",
+                    "value": "93"
+                },
+                {
+                    "name": "Senegal",
+                    "value": "2249"
+                },
+                {
+                    "name": "Morocco",
+                    "value": "3232"
+                },
+                {
+                    "name": "Nigeria",
+                    "value": "15158"
+                },
+                {
+                    "name": "Egypt",
+                    "value": "45931"
+                },
+                {
+                    "name": "Algeria",
+                    "value": "2992"
+                },
+                {
+                    "name": "Papua New Guinea",
+                    "value": "3"
+                },
+                {
+                    "name": "New Caledonia",
+                    "value": "0"
+                },
+                {
+                    "name": "New Zealand",
+                    "value": "22"
+                },
+                {
+                    "name": "Australia",
+                    "value": "724"
+                },
+                {
+                    "name": "Bermuda",
+                    "value": "2"
+                },
+                {
+                    "name": "Belize",
+                    "value": "4"
+                },
+                {
+                    "name": "Haiti",
+                    "value": "4989"
+                },
+                {
+                    "name": "El Salvador",
+                    "value": "2361"
+                },
+                {
+                    "name": "Nicaragua",
+                    "value": "858"
+                },
+                {
+                    "name": "Bahamas",
+                    "value": "6"
+                },
+                {
+                    "name": "The Bahamas",
+                    "value": "6"
+                },
+                {
+                    "name": "Guatemala",
+                    "value": "13493"
+                },
+                {
+                    "name": "Cuba",
+                    "value": "43"
+                },
+                {
+                    "name": "Honduras",
+                    "value": "16372"
+                },
+                {
+                    "name": "Jamaica",
+                    "value": "135"
+                },
+                {
+                    "name": "Panama",
+                    "value": "16570"
+                },
+                {
+                    "name": "Costa Rica",
+                    "value": "1860"
+                },
+                {
+                    "name": "Dominican Rep.",
+                    "value": "13803"
+                },
+                {
+                    "name": "Mexico",
+                    "value": "62272"
+                },
+                {
+                    "name": "Canada",
+                    "value": "28174"
+                },
+                {
+                    "name": "United States",
+                    "value": "1435851"
+                },
+                {
+                    "name": "Suriname",
+                    "value": "271"
+                },
+                {
+                    "name": "Uruguay",
+                    "value": "83"
+                },
+                {
+                    "name": "Venezuela",
+                    "value": "3833"
+                },
+                {
+                    "name": "Bolivia",
+                    "value": "22126"
+                },
+                {
+                    "name": "French Guiana",
+                    "value": "2407"
+                },
+                {
+                    "name": "Paraguay",
+                    "value": "1095"
+                },
+                {
+                    "name": "Colombia",
+                    "value": "51866"
+                },
+                {
+                    "name": "Peru",
+                    "value": "101702"
+                },
+                {
+                    "name": "Argentina",
+                    "value": "39850"
+                },
+                {
+                    "name": "Chile",
+                    "value": "34270"
+                },
+                {
+                    "name": "Ecuador",
+                    "value": "23733"
+                },
+                {
+                    "name": "Brazil",
+                    "value": "554641"
+                },
+                {
+                    "name": "Turkey",
+                    "value": "21689"
+                },
+                {
+                    "name": "Iran",
+                    "value": "28355"
+                },
+                {
+                    "name": "Netherlands",
+                    "value": "43794"
+                },
+                {
+                    "name": "Belgium",
+                    "value": "34688"
+                },
+                {
+                    "name": "Spain",
+                    "value": "70746"
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": "267022"
+                },
+                {
+                    "name": "Italy",
+                    "value": "16496"
+                },
+                {
+                    "name": "Germany",
+                    "value": "8251"
+                },
+                {
+                    "name": "France",
+                    "value": "58798"
+                },
+                {
+                    "name": "United States",
+                    "value": "1435851"
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u73b0\u6709\u786e\u8bca\u4eba\u6570"
+            ],
+            "selected": {
+                "\u73b0\u6709\u786e\u8bca\u4eba\u6570": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u4e16\u754c\u75ab\u60c5\u5730\u56fe\u5206\u5e03",
+            "subtext": "\u622a\u81f32020.06.30 12:00 \u4e16\u754c\u75ab\u60c5\u5206\u5e03\u60c5\u51b5",
+            "left": "center",
+            "top": "20px",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 200,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "max": 10000000,
+                "min": 100001,
+                "label": ">1000",
+                "color": "#8A0808"
+            },
+            {
+                "max": 100000,
+                "min": 10001,
+                "label": "500-1000",
+                "color": "#B40404"
+            },
+            {
+                "max": 10000,
+                "min": 1001,
+                "label": "100-499",
+                "color": "#DF0101"
+            },
+            {
+                "max": 1000,
+                "min": 101,
+                "label": "10-99",
+                "color": "#F78181"
+            },
+            {
+                "max": 100,
+                "min": 1,
+                "label": "1-9",
+                "color": "#F5A9A9"
+            },
+            {
+                "max": 0,
+                "min": 0,
+                "label": "0",
+                "color": "#fababa"
+            }
+        ]
+    }
+};
+        chart_9be3f84519ff45ad9a47e19130d2252d.setOption(option_9be3f84519ff45ad9a47e19130d2252d);
+    </script>
+    <div class="action">
+        <a href="http://127.0.0.1:5000/deal_request"><span>⇐</span>
+    </div>
+</body>
+</html>
